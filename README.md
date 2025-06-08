@@ -13,7 +13,7 @@ Tool ini digunakan untuk melakukan brute force login pada aplikasi web atau API 
 
 1. Siapkan file `usernames.txt` dan `passwords.txt` yang berisi daftar username dan password yang ingin diuji, satu per baris.
 
-2. Sesuaikan variabel di bagian bawah script `brute_force.py`:
+2. Sesuaikan variabel di bagian bawah script `bf.py`:
    - `target_url`: URL endpoint login.
    - `user_field`: Nama field username pada form login.
    - `pass_field`: Nama field password pada form login.
